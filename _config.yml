@@ -16,39 +16,39 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone:  America/Chicago
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Rye.Ninja Documentation                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Documentation for my Home Lab  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A guide to building and maintaining my home lab.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://estenrye.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: estenrye             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: csciborg            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Esten Rye
+  email:             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/csciborg      # change to your twitter homepage
+    - https://github.com/estenrye       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/estenrye
 
 google_site_verification:               # fill in to your verification string
 
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://www.gravatar.com/avatar/fda3bf251c8a938e0c403b51559bf884?s=400
 
 # boolean type, the global switch for ToC in posts.
 toc: true
