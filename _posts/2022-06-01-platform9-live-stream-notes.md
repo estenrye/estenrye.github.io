@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Add Front Matter to a post.
+title: Platform9 Live - Stream Notes - VS Code Server Docker-in-Docker
 date: 2022-06-01 21:45:00 -0500
 categories:
   - Platform9 Live
@@ -77,3 +77,6 @@ me to specify a more specific tag if I desire a more consistent deployment.
 
 ### Step 2: Create a new deployment in the VS Code Server helm chart.
 
+- Got Docker-in-Docker deployed alongside vscode-server.
+  - not working yet.
+  - TLS Certificates are not being generated because Kubernetes Secrets mounted to paths are read-only.

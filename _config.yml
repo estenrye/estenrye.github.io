@@ -21,7 +21,7 @@ timezone:  America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Rye.Ninja Documentation                          # the main title
+title: Esten.Rye.Ninja Documentation                          # the main title
 
 tagline: Documentation for my Home Lab  # it will display as the sub-title
 
