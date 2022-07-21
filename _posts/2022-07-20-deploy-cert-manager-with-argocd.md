@@ -1,16 +1,19 @@
 ---
 layout: post
-title: Deploying 1Password Connect With ArgoCD
+title: Deploying Cert-Manager With ArgoCD
 date: 2022-07-20 19:35:00 -0500
 categories:
   - notes
   - argocd
-  - secrets
+  - certificates
+  - kubernetes
 tags:
   - continuous delivery
   - argocd
-  - secrets
+  - certificates
   - 1password
+  - kubernetes
+
 ---
 
 # References
