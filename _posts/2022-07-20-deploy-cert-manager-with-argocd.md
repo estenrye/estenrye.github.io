@@ -11,7 +11,6 @@ tags:
   - continuous delivery
   - argocd
   - certificates
-  - 1password
   - kubernetes
 
 ---
