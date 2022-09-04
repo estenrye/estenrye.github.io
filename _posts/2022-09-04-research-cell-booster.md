@@ -27,8 +27,8 @@ tags:
 - [How To Boost Your Cell Phone Signal](https://www.youtube.com/watch?v=ytQ0LzatWeQ)
 - [I Hate This... New House Cel-Fi Cell Repeater Install](https://www.youtube.com/watch?v=-myJTBiH5LI)
 - [How To Setup A Cell Phone Signal Booster For Verizon, AT&T, Sprint, T-Mobile, US Cellular And More](https://www.youtube.com/watch?v=vMP8-Cg43Ew)
-- [How to Find a Cell Tower using the OpenSignal App | weBoost](https://www.youtube.com/watch?v=MINBywFZrQw)
-- [Installing the Outside Antenna - Cell Phone Signal Booster Home Install Series (2 of 6) | weBoost](https://www.youtube.com/watch?v=a8Z_jtP1mpU)
+- [How to Find a Cell Tower using the OpenSignal App - weBoost](https://www.youtube.com/watch?v=MINBywFZrQw)
+- [Installing the Outside Antenna - Cell Phone Signal Booster Home Install Series (2 of 6)  - weBoost](https://www.youtube.com/watch?v=a8Z_jtP1mpU)
 
 
 
