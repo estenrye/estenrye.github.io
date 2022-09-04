@@ -34,6 +34,7 @@ tags:
 
 ## Products
 
+- [Waveform Digital booster](https://www.waveform.com/a/b/guides/ltt)
 - [HiBoost Cell Phone Signal Booster, Support up to 8,000 sq ft, Upgrade Kit with 2 Indoor Antennas, APP Support, 4G 5G LTE Data for All US Carriers -Verizon, AT&T, T-Mobile, Sprint ect, FCC Approved](https://www.amazon.com/Booster-HiBoost-Coverage-Improve-Carriers/dp/B07VT2FHLP?ref_=ast_sto_dp&th=1)
   - 68 dB maximum gain
   - two indoor antennas
