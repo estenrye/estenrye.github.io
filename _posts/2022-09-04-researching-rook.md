@@ -1,45 +1,40 @@
 ---
 layout: post
 title: Rook/Ceph Background Research
-date: 2022-09-04 04:15:00 -0500
-categories:
-  - homelab
-  - rook
-  - storage
-  - baremetal
-tags:
-  - kuberenetes
+date: 2022-09-04T09:15:00+00:00
+categories: [homelab, rook, storage, baremetal]
+tags: [kuberenetes]
 ---
 
 # Rook Implementation Research Notes
 
 ## Videos
 
-- [YouTube | Tuesday Tech Tip - Intro to Ceph Clustering Part 1 - When to Consider It](https://www.youtube.com/watch?v=yeAlzSp6yaE)
+- [YouTube - Tuesday Tech Tip - Intro to Ceph Clustering Part 1 - When to Consider It](https://www.youtube.com/watch?v=yeAlzSp6yaE)
     - 45 Drives
     - May 26, 2020
 
-- [YouTube | Tuesday Tech Tip - Intro to Ceph Clustering Part 2 - How Ceph Works](https://www.youtube.com/watch?v=HJivYTJ9Y54)
+- [YouTube - Tuesday Tech Tip - Intro to Ceph Clustering Part 2 - How Ceph Works](https://www.youtube.com/watch?v=HJivYTJ9Y54)
     - 45 Drives
     - June 02, 2020
 
-- [YouTube | Tuesday Tech Tip - Intro to Ceph Clustering Part 3 - Data Security](https://www.youtube.com/watch?v=L5ug8UIs4tI)
+- [YouTube - Tuesday Tech Tip - Intro to Ceph Clustering Part 3 - Data Security](https://www.youtube.com/watch?v=L5ug8UIs4tI)
     - 45 Drives
     - June 09, 2020
 
-- [YouTube | Tuesday Tech Tip - Intro to Ceph Clustering Part 4 - Self Balancing and Self Healing](https://www.youtube.com/watch?v=jBWVcJYNjeA)
+- [YouTube - Tuesday Tech Tip - Intro to Ceph Clustering Part 4 - Self Balancing and Self Healing](https://www.youtube.com/watch?v=jBWVcJYNjeA)
     - 45 Drives
     - June 16, 2020
 
-- [YouTube | Intro to Rook: Storage for Kubernetes](https://www.youtube.com/watch?v=dA29dIK6g5o)
+- [YouTube - Intro to Rook: Storage for Kubernetes](https://www.youtube.com/watch?v=dA29dIK6g5o)
     - Jared Watts, Upbound & Alexander Trost, Cloudical
     - September 04, 2020
 
-- [YouTube | Tuesday Tech Tip - Ceph Deployment Tools](https://www.youtube.com/watch?v=SLld70mnpbo&list=PL0q6mglL88AN9LGNfmEhu2fxZ_DNm5nZA)
+- [YouTube - Tuesday Tech Tip - Ceph Deployment Tools](https://www.youtube.com/watch?v=SLld70mnpbo&list=PL0q6mglL88AN9LGNfmEhu2fxZ_DNm5nZA)
     - 45 Drives
     - November 17, 2020
 
-- [YouTube | Getting Started with Rook](https://www.youtube.com/watch?v=wIRMxl_oEMM)
+- [YouTube - Getting Started with Rook](https://www.youtube.com/watch?v=wIRMxl_oEMM)
     - The Linux Foundation
     - January 07, 2020
     - Covers:
@@ -48,26 +43,26 @@ tags:
         - Setting up storage class
         - Setting up PVC
 
-- [YouTube | Rook: Intro and Ceph Deep Dive](https://www.youtube.com/watch?v=j86OXjC1Jr8)
+- [YouTube - Rook: Intro and Ceph Deep Dive](https://www.youtube.com/watch?v=j86OXjC1Jr8)
     - Blaine Gardner, Red Hat / Satoru Takeuchi, Cybozu, Inc.
     - May 14, 2021
 
-- [YouTube | Tuesday Tech Tip - The Simplest Way to Build a Ceph Cluster](https://www.youtube.com/watch?v=ZsQp1vmn22M)
+- [YouTube - Tuesday Tech Tip - The Simplest Way to Build a Ceph Cluster](https://www.youtube.com/watch?v=ZsQp1vmn22M)
     - 45 Drives
     - August 17, 2021
 
-- [YouTube | Kubernetes Fortnight: Solving storage in Kubernetes with the Rook operator](https://www.youtube.com/watch?v=0SOCWLmSrQs)
+- [YouTube - Kubernetes Fortnight: Solving storage in Kubernetes with the Rook operator](https://www.youtube.com/watch?v=0SOCWLmSrQs)
     - Platform9 Systems, Inc.
     - Chris Jones / Anup Barve
     - August 19, 2021
     - Covers:
         - High Level Overview and Key topics around Rook and Ceph
 
-- [YouTube | ROOK – Ceph Backed Object Storage for Kubernetes Install and Configure](https://www.youtube.com/watch?v=cR-s26Zzx4Y)
+- [YouTube - ROOK – Ceph Backed Object Storage for Kubernetes Install and Configure](https://www.youtube.com/watch?v=cR-s26Zzx4Y)
   - Anthony Spiteri
   - September 03, 2021
 
-- [YouTube | Tuesday Tech Tip - Tuning and Benchmarking for your Workload with Ceph](https://www.youtube.com/watch?v=7C9HI_f0bBo)
+- [YouTube - Tuesday Tech Tip - Tuning and Benchmarking for your Workload with Ceph](https://www.youtube.com/watch?v=7C9HI_f0bBo)
     - Mitch / 45Drives
     - October 26, 2021
     - Covers:
@@ -77,26 +72,26 @@ tags:
         - Latency tests between the nodes.
         - tuned for getting servers performing with lowest possible latency
 
-- [YouTube | Rook: Intro and Ceph Deep Dive](https://www.youtube.com/watch?v=VBVVqiKvlCI)
+- [YouTube - Rook: Intro and Ceph Deep Dive](https://www.youtube.com/watch?v=VBVVqiKvlCI)
     - Travis Nielsen, Sebastien Han, Blaine Gardner & Satoru Takeuchi
     - October 29, 2021
 
-- [YouTube | Introduction to Rook](https://www.youtube.com/watch?v=VSjcm82l5UA)
+- [YouTube - Introduction to Rook](https://www.youtube.com/watch?v=VSjcm82l5UA)
     - Red Hat Developer
     - Travis Nielson / Rook Maintainer / Red Hat
     - May 10, 2022
 
-- [YouTube | Rook in the cloud or on-prem?](https://www.youtube.com/watch?v=-4usMK00qW0)
+- [YouTube - Rook in the cloud or on-prem?](https://www.youtube.com/watch?v=-4usMK00qW0)
     - Red Hat Developer
     - Travis Nielson / Rook Maintainer / Red Hat
     - May 10, 2022
 
-- [YouTube | Getting started with Rook](https://www.youtube.com/watch?v=1SF8sTsMGYY)
+- [YouTube - Getting started with Rook](https://www.youtube.com/watch?v=1SF8sTsMGYY)
     - Red Hat Developer
     - Travis Nielson / Rook Maintainer / Red Hat
     - May 10, 2022
 
-- [YouTube | Installing Rook in an AWS cluster](https://www.youtube.com/watch?v=DYofW39Q5Z8)
+- [YouTube - Installing Rook in an AWS cluster](https://www.youtube.com/watch?v=DYofW39Q5Z8)
     - Red Hat Developer
     - Travis Nielson / Rook Maintainer / Red Hat
     - May 10, 2022
