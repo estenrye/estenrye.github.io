@@ -8,7 +8,7 @@ categories:
   - secrets
   - kubernetes
 tags:
-  - continuous delivery
+  - continuous-delivery
   - argocd
   - secrets
   - kubernetes

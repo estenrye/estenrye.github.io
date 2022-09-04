@@ -5,8 +5,8 @@ date: 2022-06-01 21:45:00 -0500
 categories:
   - Platform9 Live
 tags:
-  - VS Code Server
-  - Kubernetes
+  - VS-Code-Server
+  - kubernetes
 ---
 
 # Extensions Installed.

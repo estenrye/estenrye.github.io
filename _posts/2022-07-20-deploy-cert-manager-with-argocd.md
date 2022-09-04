@@ -8,7 +8,7 @@ categories:
   - certificates
   - kubernetes
 tags:
-  - continuous delivery
+  - continuous-delivery
   - argocd
   - certificates
   - kubernetes

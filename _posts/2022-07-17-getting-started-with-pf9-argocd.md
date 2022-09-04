@@ -6,7 +6,7 @@ categories:
   - notes
   - argocd
 tags:
-  - continuous delivery
+  - continuous-delivery
   - argocd
 ---
 

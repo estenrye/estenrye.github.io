@@ -6,7 +6,7 @@ categories:
   - networking
   - cellphone
 tags:
-  - cell booster
+  - cell-booster
 --- 
 
 # Reference Notes
