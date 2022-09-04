@@ -25,7 +25,7 @@ As I write this, I am on a Delta flight to San Jose, CA.  I have 3 hours until I
 and I want to deploy some of my common Kubernetes platform tooling to my 
 [Rancher Desktop](https://rancherdesktop.io/) local Kubernetes instance.  Part of my 
 tooling uses [cert-manager](https://cert-manager.io) to issue my services free, trusted
-[LetsEncrypt](letsencrypt.io) certificates.  This works great as long as one of two things
+[LetsEncrypt](https://letsencrypt.io) certificates.  This works great as long as one of two things
 are true:
 
 1. You have a publicly queriable DNS name that returns a valid public IP that resolves to
