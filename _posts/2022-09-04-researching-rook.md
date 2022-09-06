@@ -80,6 +80,10 @@ tags: [kuberenetes]
     - Travis Nielsen, Sebastien Han, Blaine Gardner & Satoru Takeuchi
     - October 29, 2021
 
+- [YouTube - How to set up a cluster with CephAdm](https://www.youtube.com/watch?v=ENsfa8WB6EI)
+    - Daniel Persson
+    - January 17, 2022
+
 - [YouTube - Introduction to Rook](https://www.youtube.com/watch?v=VSjcm82l5UA)
     - Red Hat Developer
     - Travis Nielson / Rook Maintainer / Red Hat
