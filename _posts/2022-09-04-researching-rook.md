@@ -30,6 +30,10 @@ tags: [kuberenetes]
     - Jared Watts, Upbound & Alexander Trost, Cloudical
     - September 04, 2020
 
+- [YouTube - Getting started with ceph storage cluster setup](https://www.youtube.com/watch?v=Uvbp3mtOltw)
+    - Daniel Persson
+    - October 25, 2020
+
 - [YouTube - Tuesday Tech Tip - Ceph Deployment Tools](https://www.youtube.com/watch?v=SLld70mnpbo&list=PL0q6mglL88AN9LGNfmEhu2fxZ_DNm5nZA)
     - 45 Drives
     - November 17, 2020
