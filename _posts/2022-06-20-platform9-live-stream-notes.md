@@ -61,17 +61,17 @@ Turning it into a template that can be executed by the Helm Chart
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: {{ include "vscode-server.fullname" . }}-binding
+  name: \{\{ include "vscode-server.fullname" . \}\}-binding
   labels:
-    {{- include "vscode-server.labels" . | nindent 4 }}
+    \{\{- include "vscode-server.labels" . | nindent 4 \}\}
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
   name: admin
 subjects:
 - kind: ServiceAccount
-  name: {{ include "vscode-server.serviceAccountName" . }}
-  namespace: {{ .Release.Namespace }}
+  name: \{\{ include "vscode-server.serviceAccountName" . \}\}
+  namespace: \{\{ .Release.Namespace \}\}
 ```
 
 ## Building a Custom VS Code Server Image
@@ -139,20 +139,20 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: ${{ inputs.DOCKER_USERNAME }}
-          password: ${{ secrets.docker_password }}
+          username: $\{\{ inputs.DOCKER_USERNAME \}\}
+          password: $\{\{ secrets.docker_password \}\}
 
       - name: Build image and push to Docker Hub and GitHub Container Registry
         id: docker_build
         uses: docker/build-push-action@v2
         with:
           # relative path to the place where source code with Dockerfile is located
-          context: docker/${{ inputs.DOCKER_USERNAME }}/${{ inputs.DOCKER_IMAGENAME }}
+          context: docker/$\{\{ inputs.DOCKER_USERNAME \}\}/$\{\{ inputs.DOCKER_IMAGENAME \}\}
           # Note: tags has to be all lower-case
           tags: |
-            ${{ inputs.DOCKER_USERNAME }}/${{ inputs.DOCKER_IMAGENAME }}:latest
+            $\{\{ inputs.DOCKER_USERNAME \}\}/$\{\{ inputs.DOCKER_IMAGENAME \}\}:latest
           # build on feature branches, push only on main branch
-          push: ${{ inputs.PUSH_IMAGE }}
+          push: $\{\{ inputs.PUSH_IMAGE \}\}
 ```
 
 ### Using reusable Github Workflow
@@ -191,7 +191,7 @@ jobs:
     with:
       DOCKER_IMAGENAME: vscode-server
       DOCKER_USERNAME: estenrye
-      PUSH_IMAGE: ${{ github.ref == 'refs/heads/master' }}
+      PUSH_IMAGE: $\{\{ github.ref == 'refs/heads/master' \}\}
     secrets:
-      docker_password: ${{ secrets.DOCKER_PASSWORD }}
+      docker_password: $\{\{ secrets.DOCKER_PASSWORD \}\}
 ```
