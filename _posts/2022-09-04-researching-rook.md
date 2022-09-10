@@ -10,6 +10,15 @@ tags: [kuberenetes]
 
 ## Videos
 
+- [YouTube - Getting Started with Rook](https://www.youtube.com/watch?v=wIRMxl_oEMM)
+    - The Linux Foundation
+    - January 07, 2020
+    - Covers:
+        - Installing rook
+        - Setting up device usage
+        - Setting up storage class
+        - Setting up PVC
+
 - [YouTube - Tuesday Tech Tip - Intro to Ceph Clustering Part 1 - When to Consider It](https://www.youtube.com/watch?v=yeAlzSp6yaE)
     - 45 Drives
     - May 26, 2020
@@ -30,6 +39,10 @@ tags: [kuberenetes]
     - Jared Watts, Upbound & Alexander Trost, Cloudical
     - September 04, 2020
 
+- [YouTube - Performance Optimization – Rook on Kubernetes](https://www.youtube.com/watch?v=v1u6bPM4SQU)
+    - Mark Darnell & Ryan Tidwell, SUSE
+    - September 04, 2020
+
 - [YouTube - Getting started with ceph storage cluster setup](https://www.youtube.com/watch?v=Uvbp3mtOltw)
     - Daniel Persson
     - October 25, 2020
@@ -37,15 +50,6 @@ tags: [kuberenetes]
 - [YouTube - Tuesday Tech Tip - Ceph Deployment Tools](https://www.youtube.com/watch?v=SLld70mnpbo&list=PL0q6mglL88AN9LGNfmEhu2fxZ_DNm5nZA)
     - 45 Drives
     - November 17, 2020
-
-- [YouTube - Getting Started with Rook](https://www.youtube.com/watch?v=wIRMxl_oEMM)
-    - The Linux Foundation
-    - January 07, 2020
-    - Covers:
-        - Installing rook
-        - Setting up device usage
-        - Setting up storage class
-        - Setting up PVC
 
 - [YouTube - Rook: Intro and Ceph Deep Dive](https://www.youtube.com/watch?v=j86OXjC1Jr8)
     - Blaine Gardner, Red Hat / Satoru Takeuchi, Cybozu, Inc.
