@@ -2,8 +2,8 @@
 layout: post
 title: Rook/Ceph Background Research
 date: 2022-09-04T09:15:00+00:00
-categories: [homelab, rook, storage, baremetal]
-tags: [kuberenetes]
+categories: [homelab, rook, storage, baremetal, kubernetes]
+tags: [cd-homelab, work-in-progress]
 ---
 
 # Rook Implementation Research Notes
