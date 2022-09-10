@@ -22,7 +22,7 @@ tags:
 - Define a Naming Convention for custom user attributes that will be used to
   grant AWS Role Permissions in JumpCloud.  The resulting values should be
   unique across AWS Accounts and Roles.
-  - Example Naming Convention:  `AWS{{ AWS_Account_Number }}{{ AWS_Role_Name }}`
+  - Example Naming Convention:  `AWS<<AWS_Account_Number>><<AWS_Role_Name>>`
   - Example Attribute Name: `AWS673127022430ADM`
 
 # Configuring JumpCloud SSO Application
