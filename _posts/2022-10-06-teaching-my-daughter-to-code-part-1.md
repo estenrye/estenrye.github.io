@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Teaching my Daughter to Code - Part 1
-date: 2022-09-10T12:14:00+00:00
+date: 2022-10-06T12:15:00+00:00
 categories:
   - family-time
 tags:
