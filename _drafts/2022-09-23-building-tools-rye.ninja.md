@@ -1,41 +1,68 @@
 
 # References
 
-- [LinuxHint - Configuring PXE Network Boot Server on Ubuntu 22.04 LTS](https://linuxhint.com/pxe_boot_ubuntu_server/)
+## dnsmasq
+- [archlinux - dnsmasq - Documentation](https://wiki.archlinux.org/title/Dnsmasq#PXE_setup)
+
+
+## Pi-Hole
+
 - [Pi-Hole Discourse - Pihole not directing clients to PXE Server](https://discourse.pi-hole.net/t/pihole-not-directing-clients-to-pxe-server/12918)
 - [Reddit - How to set up a PXE Boot Option with Pihole?](https://www.reddit.com/r/pihole/comments/kwj2bz/how_to_set_up_a_pxe_boot_option_with_pihole/)
 - [Reddit - How to use the Pi-Hole DHCP server for pxe boot?](https://www.reddit.com/r/pihole/comments/5vshcz/how_to_use_the_pihole_dhcp_server_for_pxe_boot/)
-- [Danny Payne - Building a PXE Boot Server](https://dannypayne.me/?p=20)
-- [ThousandEyes Engineering - Open-Sourcing Shoelaces: A Tool for Unmanned Server Bootstrapping](https://www.thousandeyes.com/blog/open-sourcing-shoelaces-tool-for-unmanned-server-bootstrapping)
-- [Github - thousandeyes - shoelaces](https://github.com/thousandeyes/shoelaces)
-- [Github - estenrye - shoelaces](https://github.com/estenrye/shoelaces)
-- [ipxe.org - chainloading](https://ipxe.org/howto/chainloading)
-- [ipxe.org - download](https://ipxe.org/download)
-- [archlinux - dnsmasq - Documentation](https://wiki.archlinux.org/title/Dnsmasq#PXE_setup)
 - [A Cloud Guru - Implement and Configure a PXE Boot Server](https://learn.acloud.guru/course/91f1ddd0-51e0-4007-b992-21d60983aeaf/learn/ddf43678-74e1-4a79-8e34-51bfb162252e/03def8d6-be7b-4728-a228-39f776bad205/watch)
-- [Netbox - Installation](https://docs.netbox.dev/en/stable/installation/)
-- [Step-CA - Documentation - Configuring Postgresql](https://smallstep.com/docs/step-ca/configuration/#postgresql)
-- [Autheilia - LDAP - Introduction](https://www.authelia.com/integration/ldap/introduction/)
-- [Github - davecoutts - unify_ubuntu_2004.sh](https://gist.github.com/davecoutts/5ccb403c3d90fcf9c8c4b1ea7616948d)
-- [PiMyLifeUp - Installing the UniFi Controller on Ubuntu](https://pimylifeup.com/ubuntu-unifi-controller/)
-- [YouTube - System MTU One - Netbox Guided Install - v2.9.9 on Ubuntu 20.04.1 LTS](https://www.youtube.com/watch?v=Z5zhIiUKrBI)
-- [LinuxHint - Ubuntu - How to install and configure HAproxy on Ubuntu 20.04 LTS](https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/)
-- [Medium - Sqooba - Create your own custom and authenticated APT repository](https://medium.com/sqooba/create-your-own-custom-and-authenticated-apt-repository-1e4a4cf0b864)
 - [Pi-Hole Documentation - Basic Install](https://docs.pi-hole.net/main/basic-install/)
 - [Pi-Hole Discourse - What is setupVars.conf and how do I use it?](https://discourse.pi-hole.net/t/what-is-setupvars-conf-and-how-do-i-use-it/3533)
 - [Pi-Hole Discourse - PiHole as DHCP and DNS for multiple VLANs & subnets](https://discourse.pi-hole.net/t/pihole-as-dhcp-and-dns-for-multiple-vlans-subnets/45545/5)
 - [Pi-Hole Discourse - Pi-hole as part of a post-installation script](https://discourse.pi-hole.net/t/pi-hole-as-part-of-a-post-installation-script/3523/5)
 - [StackExchange - Unix & Linux - Install Pi-Hole without user interaction?](https://unix.stackexchange.com/questions/423715/install-pi-hole-without-user-interaction)
+
+## PXE Boot
+- [Danny Payne - Building a PXE Boot Server](https://dannypayne.me/?p=20)
+- [LinuxHint - Configuring PXE Network Boot Server on Ubuntu 22.04 LTS](https://linuxhint.com/pxe_boot_ubuntu_server/)
+- [ipxe.org - chainloading](https://ipxe.org/howto/chainloading)
+- [ipxe.org - download](https://ipxe.org/download)
+- [LinuxHint - Ubuntu - Installing and Configuring TFTP Server on Ubuntu](https://linuxhint.com/install_tftp_server_ubuntu/)
+
+## Shoelaces
+- [ThousandEyes Engineering - Open-Sourcing Shoelaces: A Tool for Unmanned Server Bootstrapping](https://www.thousandeyes.com/blog/open-sourcing-shoelaces-tool-for-unmanned-server-bootstrapping)
+- [Github - thousandeyes - shoelaces](https://github.com/thousandeyes/shoelaces)
+- [Github - estenrye - shoelaces](https://github.com/estenrye/shoelaces)
+
+## Netbox
+- [Netbox - Installation](https://docs.netbox.dev/en/stable/installation/)
+- [YouTube - System MTU One - Netbox Guided Install - v2.9.9 on Ubuntu 20.04.1 LTS](https://www.youtube.com/watch?v=Z5zhIiUKrBI)
+
+## Smallstep
+- [step-kms-plugin](https://github.com/smallstep/step-kms-plugin)
+- [Step-CA - Documentation - Configuring Postgresql](https://smallstep.com/docs/step-ca/configuration/#postgresql)
+
+## Autheilia
+- [Autheilia - LDAP - Introduction](https://www.authelia.com/integration/ldap/introduction/)
+
+## Unifi Controller
+- [Github - davecoutts - unify_ubuntu_2004.sh](https://gist.github.com/davecoutts/5ccb403c3d90fcf9c8c4b1ea7616948d)
+- [PiMyLifeUp - Installing the UniFi Controller on Ubuntu](https://pimylifeup.com/ubuntu-unifi-controller/)
+
+## HAProxy
+- [LinuxHint - Ubuntu - How to install and configure HAproxy on Ubuntu 20.04 LTS](https://linuxhint.com/how-to-install-and-configure-haproxy-load-balancer-in-linux/)
+
+## Apt Repository
+- [Medium - Sqooba - Create your own custom and authenticated APT repository](https://medium.com/sqooba/create-your-own-custom-and-authenticated-apt-repository-1e4a4cf0b864)
+
+## VLAN
 - [Lifewire - What is a Virtual LAN (VLAN)](https://www.lifewire.com/virtual-local-area-network-817357)
+
+## Keepalived
 - [Keepalived - Documentation - Installing keepalived](https://keepalived.readthedocs.io/en/latest/installing_keepalived.html)
 - [RedHat - keepalived basics](https://www.redhat.com/sysadmin/keepalived-basics)
-- [LinuxHint - Ubuntu - Installing and Configuring TFTP Server on Ubuntu](https://linuxhint.com/install_tftp_server_ubuntu/)
 - [Nitrokey - HSM2 - Docs](https://docs.nitrokey.com/hsm/linux/)
 
 # Tools.Rye.Ninja
 
-- [PiHole Admin](http://tools.rye.ninja/admin)
-- [Apt Mirror](http://tools.rye.ninja:30081)
+- [PiHole Admin](http://pihole.tools.rye.ninja/admin)
+- [Apt Mirror](http://apt.tools.rye.ninja:30081)
+- [Netbox](http://netbox.tools.rye.ninja:30082)
 
 # Ansible Documentation
 
