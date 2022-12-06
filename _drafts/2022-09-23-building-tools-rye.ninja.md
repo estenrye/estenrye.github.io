@@ -1,15 +1,30 @@
+---
+layout: post
+title: Building tools.rye.ninja - My Network Tools Server
+date: 2022-09-23 00:00:00 -0500
+categories:
+  - home-lab
+  - tools
+tags:
+  - tools
+---
 
 # Next Steps
 [x] Install apt mirror
 [x] Mirror Ubuntu Releases
 [x] Install pihole
+[x] Install Netbox
+[x] Install Nitrokey HSM tooling
+[ ] Create a custom step apt repository for step deb packages
+[ ] Install step cli
+[ ] Install [step-kms-plugin](https://github.com/smallstep/step-kms-plugin)
+[ ] Install Step Certificates
 [ ] Configure Shoelaces
 [ ] Configure pihole DHCP settings
-[ ] Install Step Certificates
-[x] Install Netbox
-[ ] Install HAProxy?
 [ ] Install Cert-bot
-[ ] Install Unifi Controller?
+[ ] Install Unifi Controller
+[ ] Install HAProxy
+[x] Automate Pi-Hole install
 
 # Hardware
 
@@ -17,6 +32,7 @@ Here's a list of the hardware I used.
 
 - Supermicro 1U Server
 - 4 GB RAM
+- Nitrokey HSM2
 
 # Network Configuration
 
@@ -109,6 +125,7 @@ https://linuxhint.com/install_tftp_server_ubuntu/
 
 ## Apt Repository
 - [Medium - Sqooba - Create your own custom and authenticated APT repository](https://medium.com/sqooba/create-your-own-custom-and-authenticated-apt-repository-1e4a4cf0b864)
+- [Debian Bug report logs - #322483 - apt-utils: please include an example for apt-ftparchive generate](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=322483)
 
 ## VLAN
 - [Lifewire - What is a Virtual LAN (VLAN)](https://www.lifewire.com/virtual-local-area-network-817357)
@@ -119,7 +136,11 @@ https://linuxhint.com/install_tftp_server_ubuntu/
 
 ## Nitrokey HSM2
 - [Nitrokey - HSM2 - Docs](https://docs.nitrokey.com/hsm/linux/)
-
+- [Getting Started with the Nitrokey HSM 2](https://privatekey.dev/getting-started-with-the-nitrokey-hsm-2/)
+- [Using the Nitrokey HSM with GPG in macOS](https://blogs.gnome.org/danni/2017/07/07/using-the-nitrokey-hsm-with-gpg-in-macos/)
+- [M of N Setup with NitroKey HSM](https://www.ssltrust.com/help/setup-guides/mofn-setup-nitrokey-hsm)
+- [Nitrokey Start: Getting started guide (gnuk openpgp token)](https://raymii.org/s/articles/Nitrokey_Start_Getting_started_guide.html)
+- [Using OpenPGP subkeys in Debian development](https://wiki.debian.org/Subkeys)
 
 # Ansible Documentation
 

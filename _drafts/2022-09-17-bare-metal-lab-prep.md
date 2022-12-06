@@ -1,5 +1,13 @@
-
-
+---
+layout: post
+title: bare metal lab prep
+date: 2022-09-17 00:00:00 -0500
+categories:
+  - home-lab
+  - notes
+tags:
+  - bare-metal
+---
 
 
 ## References
