@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bare metal lab prep
+title: Invoicing my Family - Tool Evaluation
 date: 2022-09-23 00:00:00 -0500
 categories:
   - home-lab
