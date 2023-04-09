@@ -24,3 +24,4 @@ I used to learn about SOC2 and any non-confidential experiential learnings along
 ## Video Learning
 
 - [PluralSight - Security Compliance: SOC2](https://app.pluralsight.com/library/courses/security-compliance-soc-2/table-of-contents)
+- [YouTube - How to Prepare for SOC 2 Type 2 Audit - Webinar](https://www.youtube.com/watch?v=JhsUDxzbopU)
