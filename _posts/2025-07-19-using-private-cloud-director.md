@@ -275,6 +275,48 @@ mkdir -p ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -N "" -f ~/.ssh/id_rsa
 ```
 
+### Create a Custom VM Template for attaching the disk images to the multiple Bridges
+
+The `uvt-kvm` tool uses a template to create new virtual machines. The template is a set of parameters that define the characteristics of the virtual machine, such as the amount of memory, number of CPUs, and disk size. The template can also include network configuration, such as the bridge to use for networking.
+
+The following temmplate will allow us to connect the virtual machines to the `br61` and `br5` bridges, which are used in my PCD control plane.
+
+```bash
+<domain type='kvm'>
+  <os>
+    <type>hvm</type>
+    <boot dev='hd'/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <pae/>
+  </features>
+  <devices>
+    <interface type='network'>
+      <source network='default'/>
+      <model type='virtio'/>
+    </interface>
+    <serial type='pty'>
+      <source path='/dev/pts/3'/>
+      <target port='0'/>
+    </serial>
+    <graphics type='vnc' autoport='yes' listen='127.0.0.1'>
+      <listen type='address' address='127.0.0.1'/>
+    </graphics>
+    <graphics type='spice' autoport='yes' listen='127.0.0.1'>
+      <listen type='address' address='127.0.0.1'/>
+    </graphics>
+    <video>
+      <model type='qxl'/>
+    </video>
+    <channel type='unix'>
+      <target type='virtio' name='org.qemu.guest_agent.0'/>
+    </channel>
+  </devices>
+</domain>
+```
+
 ### Creating KVM Virtual Machines
 
 Now that we have the disk images ready, we can create the KVM virtual machines using the `virt-install` command. We'll create three VMs for the PCD control plane.
