@@ -482,3 +482,6 @@ curl -sfL https://go.pcd.run | bash
 
 ### LVM Resources
 - [NetworkLessons.con: How to Extend Linux LVM Logical Volume](https://networklessons.com/miscellaneous/extend-lvm-partition)
+
+### SR-IOV Resources
+- [Intel: Configure SR-IOV Network Virtual Functions in Linux KVM](https://www.intel.com/content/www/us/en/developer/articles/technical/configure-sr-iov-network-virtual-functions-in-linux-kvm.html)
