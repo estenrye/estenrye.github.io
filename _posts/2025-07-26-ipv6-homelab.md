@@ -19,6 +19,7 @@
 - [Network World: Jeff Doyle: The Logic of Bad IPv6 Address Management](https://www.networkworld.com/article/742850/the-logic-of-bad-ipv6-address-management.html)
 - [Vegards Blog: My Unifi Gateway just learned to do BGP!](https://vegard.blog.engen.priv.no/?p=437)
 - [kube-vip.io](https://kube-vip.io/)
+- [Medium: Çağatay Gürtürk: Kubernetes on Raspberry Pi and BGP Load Balancing with UniFi Dream Machine Pro](https://itnext.io/kubernetes-on-raspberry-pi-and-bgp-load-balancing-with-unifi-dream-machine-pro-d5b94b6cfe99)
 
 ## Configuring BGP on my UniFi UDM SE
 
