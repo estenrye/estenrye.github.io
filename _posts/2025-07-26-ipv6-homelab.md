@@ -20,6 +20,8 @@
 - [Vegards Blog: My Unifi Gateway just learned to do BGP!](https://vegard.blog.engen.priv.no/?p=437)
 - [kube-vip.io](https://kube-vip.io/)
 - [Medium: Çağatay Gürtürk: Kubernetes on Raspberry Pi and BGP Load Balancing with UniFi Dream Machine Pro](https://itnext.io/kubernetes-on-raspberry-pi-and-bgp-load-balancing-with-unifi-dream-machine-pro-d5b94b6cfe99)
+- [chrisdooks.com: Configure BGP on a UniFi Dream Machine (UDM) v3.1.x or later](https://chrisdooks.com/2023/06/26/configure-bgp-on-a-unifi-dream-machine-udm-v3-1-x-or-later/)
+
 
 ## Configuring BGP on my UniFi UDM SE
 
